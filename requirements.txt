@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+PyMuPDF
+unstructured
+pytesseract
+Pillow
+sentence-transformers
+chromadb
+openai
+python-dotenv
+pytest
