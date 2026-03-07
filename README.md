@@ -89,7 +89,7 @@ Before you can ask questions, you need to process your documents and load them i
 2.  Run the ingestion script:
 
     ```bash
-    python src/ingestion/ingest.py
+    python -m src.ingestion.ingest
     ```
 
     This script will process each document, extract text and images, generate embeddings, and store them in the ChromaDB vector store (which will be created in a `chroma_db/` directory).
