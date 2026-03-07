@@ -35,7 +35,7 @@ Follow these instructions to set up and run the project on your local machine.
 1.  **Clone the Repository**
 
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/Shanmuka-p/multimodal-rag-system.git
     cd multimodal-rag-system
     ```
 
@@ -114,7 +114,7 @@ Here is an example using `curl`:
 curl -X POST "http://localhost:8000/query" \
      -H "Content-Type: application/json" \
      -d '{
-           "query": "What were the total revenues in the last quarter?",
+           "query": "Type any question",
            "top_k": 5
          }'
 ```
