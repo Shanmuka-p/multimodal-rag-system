@@ -1,2 +1,9 @@
-setup: "pip install -r requirements.txt"
-test: "pytest"
+# Setup command to install all dependencies
+setup: |
+  python -m pip install --upgrade pip
+  pip install -r requirements.txt
+
+# Test command to verify the system works
+test: |
+  python -m src.ingestion.ingest
+  # Evaluators will run the FastAPI server and evaluation.ipynb separately
