@@ -1,6 +1,3 @@
 venv/
 __pycache__/
-sample_documents/
-extracted_assets/
 .env
-.env.example
