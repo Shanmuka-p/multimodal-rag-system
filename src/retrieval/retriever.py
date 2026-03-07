@@ -42,7 +42,7 @@ class Retriever:
                 }
                 
                 if item["type"] == "text":
-                    item["content"] = results['documents'][0][i]
+                    item["content"] = meta.get("content", "")
                 elif item["type"] == "image":
                     item["content"] = meta.get("file_path", "") # For images, content is the path
                     

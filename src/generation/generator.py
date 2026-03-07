@@ -13,7 +13,7 @@ class VLMGenerator:
             genai.configure(api_key=api_key)
         
         # Initialize Gemini 1.5 Flash (Fast, cheap, and multimodal)
-        self.model = genai.GenerativeModel('gemini-1.5-flash')
+        self.model = genai.GenerativeModel('gemini-2.5-flash')
 
     def generate_answer(self, query: str, context_items: list) -> str:
         """
